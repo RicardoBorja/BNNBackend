@@ -1,0 +1,49 @@
+{
+    "accuracy": 66.37,
+    "epoch": 19,
+    "overall_class_frequency": {
+        "class_0": 500,
+        "class_1": 268
+    },
+    "image_class_frequency": {
+        "class_0": 5923,
+        "class_1": 6742,
+        "class_2": 5958,
+        "class_3": 6131,
+        "class_4": 5842,
+        "class_5": 5421,
+        "class_6": 5918,
+        "class_7": 6265,
+        "class_8": 5851,
+        "class_9": 5949
+    },
+    "class_frequency": {
+        "cv_fold_1": {
+            "class_0": 395,
+            "class_1": 220
+        },
+        "cv_fold_2": {
+            "class_0": 406,
+            "class_1": 209
+        },
+        "cv_fold_3": {
+            "class_0": 399,
+            "class_1": 216
+        },
+        "cv_fold_4": {
+            "class_0": 399,
+            "class_1": 216
+        },
+        "cv_fold_5": {
+            "class_0": 402,
+            "class_1": 211
+        }
+    },
+    "fold_accuracies": {
+        "fold_1": 67.31999969482422,
+        "fold_2": 58.81999969482422,
+        "fold_3": 66.66999816894531,
+        "fold_4": 74.51000213623047,
+        "fold_5": 64.5199966430664
+    }
+}

@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  bnn-api:
+    build: .
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 4G # Set memory limit to 2GB
+        reservations:
+          memory: 512M # Reserve 512MB of memory
+    environment:
+      - PYTHONUNBUFFERED=1
+      - MAX_WORKERS=1 # Limit the number of workers to reduce memory usage
+    volumes:
+      - ./app/data:/app/app/data # Mount data directory for persistence
+      - ./app/config:/app/app/config # Mount config directory for persistence
